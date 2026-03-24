@@ -2,6 +2,10 @@
 NG体育token加密逆向方法
 Author: Jicky X:@EphraimLarjah
 
+方法加密主入口在app.cfeca95c.js文件的_0x3372db()函数里
+<img width="807" height="363" alt="ScreenShot_2026-03-24_161154_866" src="https://github.com/user-attachments/assets/1aee2736-f45d-44ac-b0fb-03c6c0109afe" />
+
+
 | 步骤 | 内容 |
 |------|------|
 | 1️⃣ SECRET | `DECRYPT_SECRET[hour - 8]` |
