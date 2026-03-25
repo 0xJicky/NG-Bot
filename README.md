@@ -34,3 +34,5 @@ Author: Jicky X:@EphraimLarjah
     ]
 
 MD5字符串生成格式：520&y_zUaIM2*aD2D&5201774336963251520&4 -> 转换为格式：${randomStr}&${sdkKey}&${timePart}&${CONFIG.keyMove} 
+
+v1.1 update AES KEY获取逻辑
