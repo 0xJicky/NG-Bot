@@ -22,7 +22,7 @@ const CONFIG = {
 function getSecretKey() {
     //根据小时计算索引 (8点=索引0, 9点=索引1...)
     const hour = new Date().getHours();
-    const index = (hour - 8 + 24) % 24;  // +24 处理跨天情况
+    const index = (hour + 4) % 23;  // v1.1主要更新
     
     if (index >= CONFIG.sdkmin.length) {
         throw new Error(`SECRET 索引超出范围: ${index}, 当前小时: ${hour}`);
